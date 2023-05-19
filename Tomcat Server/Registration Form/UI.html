@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Registration Form</title>
+</head>
+<body>
+<table bgcolor="orange" border="" width="500px">
+<form action="register" method="post">
+
+<tr>
+<th align="center" colspan="2"><b>Registration Form</b></th>
+</tr>
+
+<tr>
+<td>Name</td>
+<td><input type="text" name="name" placeholder="Enter your name" required></td>
+</tr>
+
+<tr>
+<td>Branch</td>
+<td><select name="Branch" id="branch"required>
+<option value="CSE">CSE</option>
+<option value="ec">EC</option>
+<option value="ex">EX</option>
+<option value="Civil">Civil</option>
+<option value="me">ME</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Semester</td>
+<td><select name="Sem" id="sem">
+<option value="">1</option>
+<option value="">2</option>
+<option value="">3</option>
+<option value="">4</option>
+<option value="">5</option>
+<option value="">6</option>
+<option value="">7</option>
+<option value="">8</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="gender" id="" required>Male
+<input type="radio" name="gender" id="" required>Female
+</td>
+</tr>
+
+<tr>
+<td>Hobby</td>
+<td><input type="checkbox" name="read">Reading
+<input type="checkbox" name="play">Playing
+<input type="checkbox" name="dance">Dancing
+</td>
+</tr>
+
+<tr>
+<td align="center" colspan="2"><input type="submit" value="Submit"></td>
+</tr>
+</form>
+</table>
+</body>
+</html>
