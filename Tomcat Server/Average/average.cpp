@@ -9,7 +9,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 
-public class Average extends HttpServlet {
+public class Average extends HttpServlet  {
 	protected void doPost(HttpServletRequest req,HttpServletResponse res)throws IOException,ServletException{
 		res.setContentType("text/html");
 		PrintWriter o=res.getWriter();
